@@ -1,0 +1,10 @@
+openapi: 3.0.0
+paths:
+  /:
+    get:
+      summary: "login"
+      responses:
+        "200":
+          description: "You are successfully authenticated!"
+        "401":
+          description: "Unauthorized Error"
