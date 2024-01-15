@@ -8,7 +8,7 @@ use OpenApi\Annotations as OA;
 */
 
 /**
- * @OA\Get(
+ * @OA\Post(
  *   path="/",
  *   summary="login",
  *   @OA\Response(
@@ -18,6 +18,10 @@ use OpenApi\Annotations as OA;
  *   @OA\Response(
  *     response="401",
  *     description="Unauthorized Error"
+ *   ),
+ * @OA\Response(
+ *         response=404,
+ *         description="Could Not Find Resource"
  *   )
  * )
  */

@@ -1,10 +1,15 @@
 openapi: 3.0.0
+info:
+  title: 'User login'
+  version: 1.0.0
 paths:
   /:
-    get:
+    post:
       summary: "login"
       responses:
         "200":
           description: "You are successfully authenticated!"
         "401":
           description: "Unauthorized Error"
+        "404":
+          description: "Not found Error"
