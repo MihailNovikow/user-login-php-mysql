@@ -1,6 +1,7 @@
 {
   "require": {
-    "zircote/swagger-php": "^4.8"
+    "zircote/swagger-php": "^4.8",
+    "doctrine/annotations": "^2.0"
   },
   "autoload": {
     "psr-4": {
